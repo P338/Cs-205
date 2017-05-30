@@ -1,2 +1,2 @@
 # Cs-205
-Data Driven Discovery
+Data Driven Discovery with Professor Wade Fagen-Ulmschneider
