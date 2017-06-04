@@ -1,0 +1,71 @@
+{% extends "templates/projectBase.html" %}
+{% block projectContent %}
+
+
+<div class = "row" >
+  <div class = "col-lg-6" >
+    <div id="legend"
+         style="width: 300px; height: 80px;" >
+         Standard Deviation
+    </div>
+  </div>
+
+
+  <div class = "col-lg-6" >
+    <div id="legend2"
+         style="width: 500px; height: 80px;" >
+         Dividend Yield
+    </div>
+  </div>
+</div>
+
+<h2>Project #3 - UIUC Dataset</h2>
+<script src="web/vis.js"></script>
+<script src="web/vistwo.js"></script>
+<script src="web/visthree.js"></script>
+<script src="web/visfour.js"></script>
+<script src="web/visfive.js"></script>
+<script src="web/vissix.js"></script>
+<script src="web/visseven.js"></script>
+<script src="web/viseight.js"></script>
+<script src="web/visnine.js"></script>
+<script src="web/visten.js"></script>
+<script src="web/viseleven.js"></script>
+<script src="web/vistwelve.js"></script>
+
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#All" aria-controls="All" role="tab" data-toggle="tab">All</a></li>
+    <li role="presentation"><a href="#Energy" aria-controls="Energy" role="tab" data-toggle="tab">Energy</a></li>
+    <li role="presentation"><a href="#Materials" aria-controls="Materials" role="tab" data-toggle="tab">Materials</a></li>
+    <li role="presentation"><a href="#Industrials" aria-controls="Industrials" role="tab" data-toggle="tab">Industrials</a></li>
+    <li role="presentation"><a href="#ConsumerDiscretionary" aria-controls="ConsumerDiscretionary" role="tab" data-toggle="tab">ConsumerDiscretionary</a></li>
+    <li role="presentation"><a href="#ConsumerStaples" aria-controls="ConsumerStaples" role="tab" data-toggle="tab">ConsumerStaples</a></li>
+    <li role="presentation"><a href="#HealthCare" aria-controls="HealthCare" role="tab" data-toggle="tab">HealthCare</a></li>
+    <li role="presentation"><a href="#Financials" aria-controls="Financials" role="tab" data-toggle="tab">Financials</a></li>
+    <li role="presentation"><a href="#InformationTechnology" aria-controls="InformationTechnology" role="tab" data-toggle="tab">InformationTechnology</a></li>
+    <li role="presentation"><a href="#TelecommunicationsServices" aria-controls="TelecommunicationsServices" role="tab" data-toggle="tab">TelecommunicationsServices</a></li>
+    <li role="presentation"><a href="#Utilities" aria-controls="Utilities" role="tab" data-toggle="tab">Utilities</a></li>
+    <li role="presentation"><a href="#RealEstate" aria-controls="RealEstate" role="tab" data-toggle="tab">RealEstate</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="All"><div id="chart" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="Energy"><div id="chart2" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="Materials" ><div id="chart3" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="Industrials"><div id="chart4" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="ConsumerDiscretionary"><div id="chart5" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="ConsumerStaples"><div id="chart6" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="HealthCare"><div id="chart7" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="Financials"><div id="chart8" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="InformationTechnology"><div id="chart9" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="TelecommunicationsServices"><div id="chart10" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="Utilities"><div id="chart11" style="margin: 0px auto; text-align: center;"></div></div>
+    <div role="tabpanel" class="tab-pane" id="RealEstate"><div id="chart12" style="margin: 0px auto; text-align: center;"></div></div>
+  </div>
+
+</div>
+{% endblock %}
